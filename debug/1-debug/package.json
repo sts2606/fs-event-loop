@@ -1,0 +1,19 @@
+{
+  "name": "1-debug-marker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env DEBUG='marker' node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "debug": "^4.4.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "3-debug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env DEBUG='server:*' node server.js",
+    "start:data": "cross-env DEBUG='server:data' node server.js",
+    "start:connection": "cross-env DEBUG='server:connection:connect, server:connection:disconnect' node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "debug": "^4.4.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}

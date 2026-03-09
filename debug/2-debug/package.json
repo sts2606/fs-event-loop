@@ -1,0 +1,21 @@
+{
+  "name": "2-debug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env DEBUG='marker:*' node index.js",
+    "start1": "cross-env DEBUG='marker:1' node index.js",
+    "start2": "cross-env DEBUG='marker:2' node index.js",
+    "start12": "cross-env DEBUG='marker:1,marker:2' node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "debug": "^4.4.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
